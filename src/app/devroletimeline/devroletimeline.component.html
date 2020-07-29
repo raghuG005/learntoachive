@@ -1,0 +1,22 @@
+<!-- Learning path Conent from devroletimelineComponent --> 
+ <div class="container">
+            <h4>Explore Technologies..</h4>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline2">
+                        <div class="timeline" style=" text-align: : center;" *ngFor="let nameandicon  of NameandIcon ">
+                            <div> <fa-icon  [icon]="nameandicon.icon" class="icon" ></fa-icon></div>
+                            <div  class="timeline-content" >
+                                <h3 class="title">{{nameandicon.name}}</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo quis.
+                                </p>
+                                <div class="button">
+                                <button class="btn" >Explore</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
